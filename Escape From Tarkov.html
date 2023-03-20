@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Escape From Tarkov</title>
+        <meta charset="UTF-8"
+        lang="pt-br"
+    </head>
+    <body>
+        <h1>Escape From Tarkov</h1>
+        <h2>Vídeos</h2>
+        <!--Tag Video-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U6yCaq7D0Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>Descrição</h3>
+        <h4>Este é um vídeo sobre o jogo escape from tarkov ,Um jogo de sobrêvivencia misturado com tiro , ação e muita adrenalina.disponível apenas para PC.</h4>
+        <h3><i>Acesse o canal de lvndmark em</i></h3>
+            <a href="https://www.youtube.com/@LVNDMARK" target="_blank">
+                <button>lvndmark</button>
+            </a>
+            <h2>Mais Vídeos de LVNDMARK</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nM6BUB42kKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qlPeN61lnN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>Site Oficial Do jogo</h2>
+        <a href="https://www.escapefromtarkov.com/" target="_blank">
+            <button>Site Oficial</button>
+        </a>
+            <h2>Imagens do jogo</h2>
+         <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2021/01/Escape-from-Tarkov.jpg" alt="imagem escape from tarkov" width="700">
+         <img src="https://www.theloadout.com/wp-content/uploads/2020/01/escape-from-tarkov-screenshot-1-900x506.jpg" alt="imagem 2 tarkov" width="700">
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
